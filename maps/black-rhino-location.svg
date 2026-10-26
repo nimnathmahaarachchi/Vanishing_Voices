@@ -1,0 +1,84 @@
+<!-- Habitat markers use the shared geometry in world-land.svg. -->
+<svg xmlns="http://www.w3.org/2000/svg" class="world-map" viewBox="0 55 1000 415" role="img" aria-label="Representative habitat location">
+<style>.map-graticule {
+  fill:none;
+  stroke:#b4c5a2;
+  stroke-width:.5;
+  opacity:.28
+}
+.map-land {
+  fill:#cfd9bc;
+  stroke:#e8efdf;
+  stroke-width:.65;
+  stroke-linejoin:round
+}
+.map-pin .pin-target {
+  fill:transparent;
+  stroke:none;
+  pointer-events:all
+}
+.map-pin .pin-ring {
+  fill:#c67b5e;
+  opacity:.18;
+  transition:r .25s
+}
+.map-pin .pin-core {
+  fill:#b86b50;
+  stroke:#f6f5e7;
+  stroke-width:2;
+  transition:r .2s
+}
+.map-pin.en .pin-ring {
+  fill:#aa8e3c
+}
+.map-pin.en .pin-core {
+  fill:#b69a45
+}
+.map-pin:hover .pin-ring,.map-pin:focus .pin-ring,.map-pin.selected .pin-ring {
+  r:14;
+  opacity:.3
+}
+.map-pin:hover .pin-core,.map-pin:focus .pin-core,.map-pin.selected .pin-core {
+  r:5.5
+}
+.map-pin.dimmed {
+  display:none
+}
+.map-pin {
+  outline:none
+}
+.map-pin:focus .pin-core {
+  stroke:#183c2a;
+  stroke-width:3
+}
+.map-ocean-label {
+  font-size:8px;
+  fill:#8a9b7d;
+  letter-spacing:2.2px;
+  text-anchor:middle;
+  pointer-events:none
+}</style>
+      
+
+<g class="map-viewport">
+        
+
+<g class="map-graticule"><path d="M0 65V425"/><path d="M125 65V425"/><path d="M250 65V425"/><path d="M375 65V425"/><path d="M500 65V425"/><path d="M625 65V425"/><path d="M750 65V425"/><path d="M875 65V425"/><path d="M1000 65V425"/><path d="M0 125H1000"/><path d="M0 200H1000"/><path d="M0 275H1000"/><path d="M0 350H1000"/><path d="M0 425H1000"/></g>
+        
+
+<g class="map-land"><use href="/maps/world-land.svg#world-land"/></g>
+        
+
+<g class="ocean-labels">
+          <text class="map-ocean-label" x="138" y="300">PACIFIC OCEAN</text>
+          <text class="map-ocean-label" x="408" y="260">ATLANTIC</text>
+          <text class="map-ocean-label" x="408" y="275">OCEAN</text>
+          <text class="map-ocean-label" x="747" y="360">INDIAN OCEAN</text>
+        </g>
+        
+
+<g class="map-pins">
+
+<g class="map-pin cr"><circle class="pin-target" cx="550.00" cy="305.56" r="14"/><circle class="pin-ring" cx="550.00" cy="305.56" r="10"/><circle class="pin-core" cx="550.00" cy="305.56" r="4.5"/></g></g>
+      </g>
+    </svg>

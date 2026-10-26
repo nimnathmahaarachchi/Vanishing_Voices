@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#153b2b">
+    <title>Endangered animal atlas — Vanishing Voices</title>
+    <meta name="description" content="An educational atlas of endangered species with habitat maps and referenced population estimates.">
+    <link rel="icon" href="/website-layout/leaf-icon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/website-layout/website-style.css">
+    <link rel="preload" as="image" href="/images/tiger-3.webp">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header ">
+      <div class="container header-inner">
+        <a class="brand" href="/website-layout/main-page.html" aria-label="Vanishing Voices home">
+          <span class="brand-mark">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 3C8 1 2 7 5 14c3 7 15 4 15-11Z"/><path d="M3 21 16 8M8 15l-1-5m6 0 4 1"/></svg></span>
+          <span class="brand-name">VANISHING VOICES<small>ENDANGERED SPECIES ATLAS</small></span>
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="/website-layout/main-page.html#atlas" class="active">World map</a>
+          <a href="/website-layout/main-page.html#species" class="">Animal profiles</a>
+          <a href="/website-layout/about-page.html" class="">About the project</a></nav>
+        <div class="header-tools">
+          <button class="icon-button search-toggle" aria-label="Search for an animal">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+          <a class="header-cta" href="/website-layout/sources-page.html">Data and sources
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+          <button class="icon-button menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-navigation">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+        </div>
+      </div>
+      <nav class="mobile-nav" id="mobile-navigation" aria-label="Mobile navigation">
+        <a href="/website-layout/main-page.html#atlas" class="active">World map</a>
+        <a href="/website-layout/main-page.html#species" class="">Animal profiles</a>
+        <a href="/website-layout/about-page.html" class="">About the project</a>
+        <a href="/website-layout/sources-page.html">Data and sources</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-label="Vanishing Voices introduction">
+        <div class="hero-slides" data-slideshow="hero">
+          <div class="hero-slide active" data-slug="tiger">
+            <img src="/images/tiger-3.webp" alt="Tiger in water" width="1280" height="850" decoding="async" fetchpriority="high"></div>
+          <div class="hero-slide " data-slug="amur-leopard">
+            <img src="/images/amur-leopard-1.webp" alt="Amur leopard, photograph 1" width="1280" height="850" decoding="async" fetchpriority="low"></div>
+          <div class="hero-slide " data-slug="asian-elephant">
+            <img src="/images/asian-elephant-1.webp" alt="Asian elephant, photograph 1" width="1280" height="850" decoding="async" fetchpriority="low"></div>
+          <div class="hero-slide " data-slug="mountain-gorilla">
+            <img src="/images/mountain-gorilla-1.webp" alt="Mountain gorilla, photograph 1" width="1280" height="850" decoding="async" fetchpriority="low"></div>
+          <div class="hero-slide " data-slug="hawksbill-turtle">
+            <img src="/images/hawksbill-turtle-1.webp" alt="Photo of turtle swimming with extended flippers" width="1280" height="850" decoding="async" fetchpriority="low"></div>
+        </div>
+        <div class="container hero-content">
+          <div class="eyebrow">Distribution and conservation
+          </div>
+          <h1>Vanishing<span>Voices.</span>
+          </h1>
+          <p class="hero-description">Explore ten endangered animals and their habitats.<br>Each profile describes the main threats and<br class="desktop-break"> provides a dated population estimate.</p>
+          <a class="button light" href="#atlas">Explore the map
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+        </div>
+        <div class="container hero-bottom">
+          <a class="hero-caption" id="hero-feature" href="/animals/tiger-page.html"><span class="caption-rule"></span>
+            <div><span class="eyebrow">Featured species &nbsp; / &nbsp; <span id="hero-region">Asia</span></span><strong id="hero-name">Tiger</strong><span class="sub" id="hero-sub">Panthera tigris · Endangered</span>
+            </div></a>
+          <div class="hero-controls" aria-label="Background slideshow controls">
+            <button class="hero-thumb" aria-label="Show Tiger photograph" aria-pressed="true" data-slide="0">
+              <img src="/images/tiger-3.webp" alt="Tiger in water" width="1280" height="850" loading="lazy"></button>
+            <button class="hero-thumb" aria-label="Show Amur leopard photograph" aria-pressed="false" data-slide="1">
+              <img src="/images/amur-leopard-1.webp" alt="Amur leopard, photograph 1" width="1280" height="850" loading="lazy"></button>
+            <button class="hero-thumb" aria-label="Show Asian elephant photograph" aria-pressed="false" data-slide="2">
+              <img src="/images/asian-elephant-1.webp" alt="Asian elephant, photograph 1" width="1280" height="850" loading="lazy"></button>
+            <button class="hero-thumb" aria-label="Show Mountain gorilla photograph" aria-pressed="false" data-slide="3">
+              <img src="/images/mountain-gorilla-1.webp" alt="Mountain gorilla, photograph 1" width="1280" height="850" loading="lazy"></button>
+            <button class="hero-thumb" aria-label="Show Hawksbill turtle photograph" aria-pressed="false" data-slide="4">
+              <img src="/images/hawksbill-turtle-1.webp" alt="Photo of turtle swimming with extended flippers" width="1280" height="850" loading="lazy"></button><span class="hero-count"><span id="hero-index">01</span> &nbsp; / &nbsp; 05</span>
+            <button class="pause-button" id="hero-pause" aria-label="Pause background slideshow" aria-pressed="false">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5v14M15 5v14"/></svg></button>
+          </div>
+          <a class="hero-scroll" href="#atlas">View the map
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m-6-6 6 6 6-6"/></svg></a>
+        </div>
+      </section>
+      <section class="quick-facts" aria-label="About this atlas">
+        <div class="container">
+          <div class="quick-item"><strong class="quick-num">10</strong>
+            <p><strong>Animal profiles</strong>Distribution and conservation data</p>
+          </div>
+          <div class="quick-item"><strong class="quick-num">01</strong>
+            <p><strong>World map</strong>Representative habitat locations</p>
+          </div>
+          <div class="quick-item">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg>
+            <p><strong>Land and marine habitats</strong>Regional species distribution</p>
+          </div>
+          <a class="quick-item" href="/website-layout/sources-page.html">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 7a9 9 0 1 0 1 9M20 2v6h-6"/></svg>
+            <p><strong>Referenced estimates</strong>Population units and evidence dates</p></a>
+        </div>
+      </section>
+      <section class="atlas-section" id="atlas">
+        <div class="container">
+          <div class="section-top">
+            <div>
+              <div class="eyebrow section-label">Geographic distribution
+              </div>
+              <h2 class="section-heading">Species locations</h2>
+              <p class="section-intro">Select a marker to open an animal profile.</p>
+            </div>
+            <p class="section-intro">Markers indicate representative habitats. Each profile describes the species distribution in more detail.</p>
+          </div>
+          <div class="atlas-toolbar">
+            <div class="habitat-filters" role="group" aria-label="Filter animals by world region">
+              <button class="filter-button active" data-filter="All" aria-pressed="true">All habitats</button>
+              <button class="filter-button " data-filter="Asia" aria-pressed="false">Asia</button>
+              <button class="filter-button " data-filter="Africa" aria-pressed="false">Africa</button>
+              <button class="filter-button " data-filter="Oceans" aria-pressed="false">Oceans</button>
+              <button class="filter-button " data-filter="Americas" aria-pressed="false">Americas</button>
+              <button class="filter-button " data-filter="Oceania" aria-pressed="false">Oceania</button>
+            </div>
+            <div class="map-key"><span><i class="key-dot"></i>Critically endangered</span><span><i class="key-dot amber"></i>Endangered</span>
+            </div>
+          </div>
+          <div class="atlas-layout">
+            <div class="map-panel">
+              <div class="map-topline"><span>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 6.5h14M5 17.5h14"/></svg> World habitat map</span><span class="map-coordinates">180° W &nbsp; — &nbsp; 180° E</span>
+              </div>
+              <!-- SVG fallback until the map loads inline. -->
+              <object class="map-fallback" data="/maps/world-map.svg" data-map-src="/maps/world-map.svg" type="image/svg+xml" aria-label="Animal habitat map">The habitat map is available in the maps folder.</object>
+              <div class="map-bottomline"><span class="map-instruction">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 3 15 9-7 2-3 7Z"/></svg> Select a marker to view its profile</span>
+                <div class="zoom-tools">
+                  <button id="zoom-in" aria-label="Zoom into world map">+</button>
+                  <button id="zoom-out" aria-label="Zoom out of world map">−</button>
+                  <button id="zoom-reset" aria-label="Reset world map zoom">↺</button>
+                </div>
+              </div>
+              <div class="map-tooltip" aria-hidden="true">
+              </div>
+            </div>
+            <aside class="map-preview" aria-label="Selected animal">
+              <div class="map-preview-image">
+                <img src="/images/amur-leopard-1.webp" alt="Amur leopard, photograph 1" width="1280" height="850" id="preview-image" loading="lazy">
+                <span id="preview-status"><span class="pill cr">Critically endangered</span></span>
+              </div>
+              <div class="map-preview-body"><span class="eyebrow">Selected species</span>
+                <h3 id="preview-name">Amur leopard</h3>
+                <p id="preview-location">Russian Far East &amp; northeast China</p>
+                <div class="map-preview-stat"><strong id="preview-population">≈130</strong><span id="preview-unit">estimated mature individuals</span></div>
+                <a class="text-link" id="preview-link" href="/animals/amur-leopard-page.html">View animal profile
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+              </div>
+            </aside>
+          </div>
+          <p class="map-footnote">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7v.1"/></svg> Each marker indicates one representative habitat. Full distribution ranges require separate geographic data. Map geometry: Natural Earth.</p>
+        </div>
+      </section>
+      <section class="species-section" id="species">
+        <div class="container">
+          <div class="section-top species-top">
+            <div>
+              <div class="eyebrow section-label">Species catalogue
+              </div>
+              <h2 class="section-heading">Animal profiles</h2>
+            </div>
+            <div class="species-count"><strong id="species-count">10</strong> profiles available
+            </div>
+          </div>
+          <div class="species-toolbar"><label class="species-search">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+              <input id="species-search" type="search" placeholder="Find a species, place, or habitat" aria-label="Filter species"></label>
+            <select id="species-sort" class="sort-select" aria-label="Sort species"><option value="featured">Featured order</option><option value="name">Name: A to Z</option><option value="status">Most endangered first</option></select>
+          </div>
+          <div class="species-grid">
+            <a class="animal-card" href="/animals/tiger-page.html" data-slug="tiger" data-region="Asia">
+              <div class="card-image">
+                <img src="/images/tiger-1.webp" alt="Tiger, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill en">Endangered</span>
+                <span class="card-number">01 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Asia &nbsp; / &nbsp; Forests &amp; grasslands</span>
+                <div class="card-title-line">
+                  <h3>Tiger</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="tiger">5,711</strong><small>estimated wild tigers</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/amur-leopard-page.html" data-slug="amur-leopard" data-region="Asia">
+              <div class="card-image">
+                <img src="/images/amur-leopard-1.webp" alt="Amur leopard, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill cr">Critically endangered</span>
+                <span class="card-number">02 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Asia &nbsp; / &nbsp; Temperate forests</span>
+                <div class="card-title-line">
+                  <h3>Amur leopard</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="amur-leopard">≈130</strong><small>estimated mature individuals</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/asian-elephant-page.html" data-slug="asian-elephant" data-region="Asia">
+              <div class="card-image">
+                <img src="/images/asian-elephant-1.webp" alt="Asian elephant, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill en">Endangered</span>
+                <span class="card-number">03 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Asia &nbsp; / &nbsp; Forests &amp; grasslands</span>
+                <div class="card-title-line">
+                  <h3>Asian elephant</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="asian-elephant">&lt;52,000</strong><small>estimated wild elephants</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/black-rhino-page.html" data-slug="black-rhino" data-region="Africa">
+              <div class="card-image">
+                <img src="/images/black-rhino-1.webp" alt="Black rhino, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill cr">Critically endangered</span>
+                <span class="card-number">04 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Africa &nbsp; / &nbsp; Savannas &amp; shrublands</span>
+                <div class="card-title-line">
+                  <h3>Black rhinoceros</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="black-rhino">6,788</strong><small>estimated wild rhinos</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/mountain-gorilla-page.html" data-slug="mountain-gorilla" data-region="Africa">
+              <div class="card-image">
+                <img src="/images/mountain-gorilla-1.webp" alt="Mountain gorilla, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill en">Endangered</span>
+                <span class="card-number">05 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Africa &nbsp; / &nbsp; Montane forests</span>
+                <div class="card-title-line">
+                  <h3>Mountain gorilla</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="mountain-gorilla">1,063</strong><small>minimum wild gorillas in census</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/sumatran-orangutan-page.html" data-slug="sumatran-orangutan" data-region="Asia">
+              <div class="card-image">
+                <img src="/images/sumatran-orangutan-1.webp" alt="Sumatran orangutan, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill cr">Critically endangered</span>
+                <span class="card-number">06 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Asia &nbsp; / &nbsp; Tropical rainforests</span>
+                <div class="card-title-line">
+                  <h3>Sumatran orangutan</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="sumatran-orangutan">11,694</strong><small>estimated wild orangutans</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/hawksbill-turtle-page.html" data-slug="hawksbill-turtle" data-region="Oceans">
+              <div class="card-image">
+                <img src="/images/hawksbill-turtle-1.webp" alt="Photo of turtle swimming with extended flippers" width="1280" height="850" loading="lazy" decoding="async"><span class="pill cr">Critically endangered</span>
+                <span class="card-number">07 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Oceans &nbsp; / &nbsp; Coral reefs</span>
+                <div class="card-title-line">
+                  <h3>Hawksbill turtle</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="hawksbill-turtle">20,000–23,000</strong><small>estimated nesting females</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/blue-whale-page.html" data-slug="blue-whale" data-region="Oceans">
+              <div class="card-image">
+                <img src="/images/blue-whale-1.webp" alt="Aerial photograph of an adult blue whale showing its length" width="1280" height="850" loading="lazy" decoding="async"><span class="pill en">Endangered</span>
+                <span class="card-number">08 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Oceans &nbsp; / &nbsp; Open ocean</span>
+                <div class="card-title-line">
+                  <h3>Blue whale</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="blue-whale">10,000–25,000</strong><small>estimated whales worldwide</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/vaquita-page.html" data-slug="vaquita" data-region="Americas">
+              <div class="card-image">
+                <img src="/images/vaquita-1.webp" alt="Vaquita, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill cr">Critically endangered</span>
+                <span class="card-number">09 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Americas &nbsp; / &nbsp; Shallow coastal waters</span>
+                <div class="card-title-line">
+                  <h3>Vaquita</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="vaquita">7–10</strong><small>animals observed in the 2025 survey</small></div>
+              </div>
+            </a>
+            <a class="animal-card" href="/animals/kakapo-page.html" data-slug="kakapo" data-region="Oceania">
+              <div class="card-image">
+                <img src="/images/kakapo-1.webp" alt="Kakapo, photograph 1" width="1280" height="850" loading="lazy" decoding="async"><span class="pill cr">Critically endangered</span>
+                <span class="card-number">10 / 10</span>
+              </div>
+              <div class="card-content">
+                <span class="card-region">
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Oceania &nbsp; / &nbsp; Island forests</span>
+                <div class="card-title-line">
+                  <h3>Kākāpō</h3>
+                  <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></div>
+                <div class="card-data"><strong data-population="kakapo">325</strong><small>living birds in the recovery population</small></div>
+              </div>
+            </a>
+          </div>
+          <p class="grid-empty" hidden>No species match this search. Try another name or choose “All habitats”.</p>
+          <div class="species-bottom"><span>Population figures are published estimates, with different dates and counting methods.</span>
+            <a class="text-link" href="/website-layout/sources-page.html">Population data notes
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
+          </div>
+        </div>
+      </section>
+      <section class="purpose-band">
+        <div class="container purpose-inner">
+          <div>
+            <div class="eyebrow">Conservation context
+            </div>
+            <h2>Habitat protection<br>and <em>species recovery</em>
+            </h2>
+          </div>
+          <div class="purpose-right">
+            <p>Population estimates describe the scale of a conservation problem, although their dates and counting methods differ. The project links each figure to its published source.</p>
+            <a class="text-link" href="/website-layout/about-page.html">About this project
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="footer-brand" href="/website-layout/main-page.html">Vanishing Voices</a>
+        <div class="footer-links">
+          <a href="/website-layout/main-page.html#atlas">World map</a>
+          <a href="/website-layout/sources-page.html">Data and sources</a>
+          <a href="/website-layout/about-page.html">About the project</a>
+        </div>
+        <span class="footer-note">Educational species atlas. &nbsp; © 2026 Vanishing Voices</span>
+      </div>
+    </footer>
+    <dialog class="search-dialog" aria-labelledby="search-title">
+      <div class="dialog-header">
+        <h2 id="search-title">Search animal profiles</h2>
+        <button class="dialog-close" aria-label="Close search">×</button>
+      </div>
+      <label class="dialog-input">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+        <input type="search" id="global-search" placeholder="Search species or habitat" aria-label="Search animals" autocomplete="off">
+      </label>
+      <div class="search-results" aria-live="polite"></div>
+      <p class="dialog-help">10 species available. Press Esc to close.</p>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script type="application/json" id="atlas-data">{"animals": [{"slug": "tiger", "name": "Tiger", "scientific": "Panthera tigris", "status": "EN", "region": "Asia", "location": "South, Southeast & East Asia", "habitat": "Forests & grasslands", "population": "5,711", "unit": "estimated wild tigers", "photos": [{"src": "/images/tiger-1.webp", "credit": "Charles J. Sharp", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Bengal_tiger_(Panthera_tigris_tigris)_female_3_crop.jpg"}, {"src": "/images/tiger-2.webp", "credit": "Seemaleena", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Adult_male_Royal_Bengal_tiger.jpg"}, {"src": "/images/tiger-3.webp", "credit": "Bob Jagendorf", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Tigerwater_edit2.jpg"}]}, {"slug": "amur-leopard", "name": "Amur leopard", "scientific": "Panthera pardus orientalis", "status": "CR", "region": "Asia", "location": "Russian Far East & northeast China", "habitat": "Temperate forests", "population": "≈130", "unit": "estimated mature individuals", "photos": [{"src": "/images/amur-leopard-1.webp", "credit": "William Warby", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Panthera_pardus_orientalis_Colchester_Zoo_(1).jpg"}, {"src": "/images/amur-leopard-2.webp", "credit": "Ministry of the Russian Federation for the Development of the Far East (Ministry of the Development of the Far East)", "license": "Attribution", "source": "https://commons.wikimedia.org/wiki/File:Amur_leopard._Frame_from_a_camera_trap.jpg"}, {"src": "/images/amur-leopard-3.webp", "credit": "Martin Tauchman", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Panthera_pardus_orientalis_–_Zima_with_her_kitten_(Zoo_Olomouc_in_Czechia).tif"}]}, {"slug": "asian-elephant", "name": "Asian elephant", "scientific": "Elephas maximus", "status": "EN", "region": "Asia", "location": "South & Southeast Asia", "habitat": "Forests & grasslands", "population": "\u003c52,000", "unit": "estimated wild elephants", "photos": [{"src": "/images/asian-elephant-1.webp", "credit": "Yathin S Krishnappa", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Elephas_maximus_(Bandipur).jpg"}, {"src": "/images/asian-elephant-2.webp", "credit": "Charles J. Sharp", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Sri_Lankan_elephant_(Elephas_maximus_maximus)_female_and_young_1.jpg"}, {"src": "/images/asian-elephant-3.webp", "credit": "Aruna at Malayalam Wikipedia", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Wild_elephants,_Munnar.jpg"}]}, {"slug": "black-rhino", "name": "Black rhinoceros", "scientific": "Diceros bicornis", "status": "CR", "region": "Africa", "location": "Eastern & southern Africa", "habitat": "Savannas & shrublands", "population": "6,788", "unit": "estimated wild rhinos", "photos": [{"src": "/images/black-rhino-1.webp", "credit": "AfricanConservation", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Black_Rhino_at_Working_with_Wildlife.jpg"}, {"src": "/images/black-rhino-2.webp", "credit": "Zammerman", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Black_rhino_female_nairobi.jpg"}, {"src": "/images/black-rhino-3.webp", "credit": "Olga Ernst", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Spitzmaulnashorn_in_Namibia.jpg"}]}, {"slug": "mountain-gorilla", "name": "Mountain gorilla", "scientific": "Gorilla beringei beringei", "status": "EN", "region": "Africa", "location": "Rwanda, Uganda & DR Congo", "habitat": "Montane forests", "population": "1,063", "unit": "minimum wild gorillas in census", "photos": [{"src": "/images/mountain-gorilla-1.webp", "credit": "d_proffer", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Susa_group,_mountain_gorilla.jpg"}, {"src": "/images/mountain-gorilla-2.webp", "credit": "Charles J. Sharp", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mountain_gorilla_(Gorilla_beringei_beringei)_female_with_baby.jpg"}, {"src": "/images/mountain-gorilla-3.webp", "credit": "Azurfrog", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Silverback_of_Ntambara_group.JPG"}]}, {"slug": "sumatran-orangutan", "name": "Sumatran orangutan", "scientific": "Pongo abelii", "status": "CR", "region": "Asia", "location": "Northern Sumatra, Indonesia", "habitat": "Tropical rainforests", "population": "11,694", "unit": "estimated wild orangutans", "photos": [{"src": "/images/sumatran-orangutan-1.webp", "credit": "Fiver, der Hellseher", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Sumatra-Orang-Utan_im_Pongoland.jpg"}, {"src": "/images/sumatran-orangutan-2.webp", "credit": "Tbachner", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Orang-utan_bukit_lawang_2006.jpg"}, {"src": "/images/sumatran-orangutan-3.webp", "credit": "Anton Leddin", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Orangutan_and_infant_Sumatra.jpg"}]}, {"slug": "hawksbill-turtle", "name": "Hawksbill turtle", "scientific": "Eretmochelys imbricata", "status": "CR", "region": "Oceans", "location": "Tropical Atlantic, Indian & Pacific oceans", "habitat": "Coral reefs", "population": "20,000–23,000", "unit": "estimated nesting females", "photos": [{"src": "/images/hawksbill-turtle-1.webp", "credit": "The original uploader was Aquaimages at English Wikipedia .", "license": "CC BY-SA 2.5", "source": "https://commons.wikimedia.org/wiki/File:3959_aquaimages.jpg"}, {"src": "/images/hawksbill-turtle-2.webp", "credit": "B.navez", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Eretmochelys_imbricata_01.jpg"}, {"src": "/images/hawksbill-turtle-3.webp", "credit": "(c) cello caruso-turiello, some rights reserved (CC BY)", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Hawksbill_Sea_Turtle,_Hawaii,_US_imported_from_iNaturalist_photo_458776813.jpg"}]}, {"slug": "blue-whale", "name": "Blue whale", "scientific": "Balaenoptera musculus", "status": "EN", "region": "Oceans", "location": "Oceans worldwide", "habitat": "Open ocean", "population": "10,000–25,000", "unit": "estimated whales worldwide", "photos": [{"src": "/images/blue-whale-1.webp", "credit": "NOAA Fisheries ( TBjornstad 11:17, 18 April 2007 (UTC))", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Blue_Whale_001_body_bw.jpg"}, {"src": "/images/blue-whale-2.webp", "credit": "NOAA Photo Library", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Anim1754_-_Flickr_-_NOAA_Photo_Library.jpg"}, {"src": "/images/blue-whale-3.webp", "credit": "Andreas Tille", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:BlueWhaleWithCalf.jpg"}]}, {"slug": "vaquita", "name": "Vaquita", "scientific": "Phocoena sinus", "status": "CR", "region": "Americas", "location": "Upper Gulf of California, Mexico", "habitat": "Shallow coastal waters", "population": "7–10", "unit": "animals observed in the 2025 survey", "photos": [{"src": "/images/vaquita-1.webp", "credit": "Paula Olson , NOAA", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Vaquita6_Olson_NOAA.jpg"}, {"src": "/images/vaquita-2.webp", "credit": "Paula Olson , NOAA", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Vaquita2_Olson_NOAA.jpg"}, {"src": "/images/vaquita-3.webp", "credit": "Paula Olson , NOAA", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Vaquita3_Olson_NOAA.jpg"}]}, {"slug": "kakapo", "name": "Kākāpō", "scientific": "Strigops habroptilus", "status": "CR", "region": "Oceania", "location": "Protected islands, Aotearoa New Zealand", "habitat": "Island forests", "population": "325", "unit": "living birds in the recovery population", "photos": [{"src": "/images/kakapo-1.webp", "credit": "Department of Conservation", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Sirocco_full_length_portrait.jpg"}, {"src": "/images/kakapo-2.webp", "credit": "Kimberley Collins", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Kākāpō_head.jpg"}, {"src": "/images/kakapo-3.webp", "credit": "Department of Conservation", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Kakapo_Trevor_feeding_on_poroporo_fruit.jpg"}]}], "animal": null, "page": "home"}</script>
+    <script src="/website-layout/website-actions.js" defer></script>
+  </body>
+</html>
